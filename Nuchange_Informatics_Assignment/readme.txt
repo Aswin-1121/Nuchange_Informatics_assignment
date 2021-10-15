@@ -24,7 +24,7 @@ COMMAND.JAVA
 
 1. Import all the necessary java packages from the java library.
 2. Create a class called 'command'.
-3.We are using a do-while loop for this purpose,first of all we get a command from the user the command must be of:
+3.I am using a do-while loop for this purpose,first of all we get a command from the user the command must be of:
 	1. To start the program: run java urldatabase.
 		 Commands:
 		a. storeurl google.com
@@ -32,8 +32,8 @@ COMMAND.JAVA
 		c. count google.com
 		d. list
 		e. To exit the program enter exit
-4.we create an arraylist named 'list' to store the commands.
-5.we split the command using space and the command is stored in the arraylist.
+4.create an arraylist named 'list' to store the commands.
+5.split the command using space and the command is stored in the arraylist.
 6.when we give the command 'storeurl domainname', the domain name we typed will be stored in the arraylist.
 7.when we type the command 'get domainname', it will give a unique key to the domain that we get using command and the count is incremented(here it checks with the domain that we get and also in the arraylist).
 8.when we type the command 'count domainname', it will check for how many occurences/ how many times that the domainname is entered into the list.
