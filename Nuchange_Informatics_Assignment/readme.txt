@@ -16,9 +16,9 @@ incrementing the usage count.
 
 
 
-METHODS USED
+STEPS USED
 
-we create 2 classes called 'command.java' and 'w1.java'.
+create 2 classes called 'command.java' and 'w1.java'.
 
 COMMAND.JAVA
 
@@ -35,7 +35,7 @@ COMMAND.JAVA
 4.create an arraylist named 'list' to store the commands.
 5.split the command using space and the command is stored in the arraylist.
 6.when we give the command 'storeurl domainname', the domain name we typed will be stored in the arraylist.
-7.when we type the command 'get domainname', it will give a unique key to the domain that we get using command and the count is incremented(here it checks with the domain that we get and also in the arraylist).
+7.when we type the command 'get domainname', it will give a unique key to the domain that we get using command and the count is incremented(here it checks with the domain that we get and also in the arraylist,unique ).
 8.when we type the command 'count domainname', it will check for how many occurences/ how many times that the domainname is entered into the list.
 9.when we type the command 'list',it will display the list  domainname,count,uniquekey using jsonarray.
 10. when we type the command 'exit',it exits from the loop.
